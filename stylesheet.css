@@ -121,30 +121,40 @@ header{
 
 .sobre {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin: auto;
     max-width: 1200px;
     margin-bottom: 150px;
-}
-
-.txt-sobre {
+  }
+  
+  .txt-sobre {
     flex: 1;
-    padding-right: 20px;
+    padding: 20px;
     color: #000;
-}
-.txt-sobre h1 {
+    text-align: justify;
+    text-justify: inter-word; 
+  }
+  
+  .txt-sobre h1 {
     font-size: 2.5rem;
-}
-
-.image {
+    margin-bottom: 20px;
+  }
+  
+  .image {
     flex: 1;
-}
-
-.image img {
-    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .image img {
+    width: 100%;
+    max-width: 400px;
     height: auto;
-    max-height: 350px;
-}
+    border-radius: 20px;
+  }
+  
 /*Em desenvolvimento*/
 .proximo{
     align-items: center;
@@ -152,6 +162,51 @@ header{
     max-width: 400px; 
     color: #000;
 }
+
+/* Habilidades */
+.habilidades-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+.habilidade {
+    display: flex;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px
+  }
+
+  .habilidade-nome {
+    font-weight: bold;
+    margin-right: 5px;
+    margin-right: 10px;
+  }
+  
+  .barra {
+    width: 500px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progresso {
+    height: 100%;
+    background-color: #631872;
+  }
+  .titulo {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    color: #000;
+  }  
+
+
 /*Responsividade */
 @media (max-width: 992px) {
     .navbar .links,
@@ -175,3 +230,30 @@ header{
     }
 
 }
+
+  
+  /* Estilos para telas menores */
+  @media screen and (max-width: 768px) {
+    .habilidades-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .habilidade {
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .habilidades-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .habilidade {
+      margin-bottom: 20px;
+    }
+    .barra {
+        width: 300px; /* Largura reduzida para dispositivos móveis */
+      }
+  } 
+  

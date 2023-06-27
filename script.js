@@ -22,3 +22,14 @@ function atualizarBarraProgresso(id, porcentagem) {
   atualizarBarraProgresso('css-progresso', 60)
   atualizarBarraProgresso('JavaScript-progresso', 50)
   
+//card
+const card = document.querySelector('.card');
+card.addEventListener('mouseover', function() {
+  card.style.transition = 'border-color 0.3s ease-in-out';
+  card.style.borderColor = 'purple';
+});
+
+card.addEventListener('mouseout', function() {
+  card.style.transition = 'border-color 0.3s ease-in-out';
+  card.style.borderColor = '#ccc';
+});

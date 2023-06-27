@@ -11,13 +11,14 @@ toggleBtn.onclick = function () {
     : 'fa-solid fa-bars'
 }
 
-// Função para atualizar a barra de progresso
+//Barra de progresso
 function atualizarBarraProgresso(id, porcentagem) {
     const elementoProgresso = document.getElementById(id);
     elementoProgresso.style.width = porcentagem + '%';
   }
   
-  // Exemplo de uso
+
   atualizarBarraProgresso('html-progresso', 80);
   atualizarBarraProgresso('css-progresso', 60)
+  atualizarBarraProgresso('JavaScript-progresso', 50)
   

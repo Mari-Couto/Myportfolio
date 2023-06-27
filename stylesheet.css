@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -17,17 +17,20 @@ body {
   
 li {
     list-style: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: #9c039f;
     font-size: 21px;
+    font-family: 'Poppins', sans-serif;
 }
 
 a:hover {
     color: #631872;
 }
+
 
 /* Header */
 header{
@@ -48,6 +51,7 @@ header{
 .navbar .logo a {
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar .links{
@@ -117,6 +121,30 @@ header{
     justify-content: center;
 }
 
+/*section*/
+
+section {
+  padding-block: 10rem;
+  padding-inline: 2rem;
+}
+
+/*inicio*/
+.inicio {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+}
+.inicio h1 {
+  color: #9834ab;
+}
+.inicio h2 {
+  color: #67047b
+}
+
+
+
+
 /*Sobre*/
 
 .sobre {
@@ -126,7 +154,8 @@ header{
     justify-content: center;
     margin: auto;
     max-width: 1200px;
-    margin-bottom: 150px;
+    margin-bottom: 230px;
+    
   }
   
   .txt-sobre {
@@ -135,11 +164,13 @@ header{
     color: #000;
     text-align: justify;
     text-justify: inter-word; 
+    font-family: 'Poppins', sans-serif;
   }
   
   .txt-sobre h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .image {
@@ -161,6 +192,7 @@ header{
     margin: auto;
     max-width: 400px; 
     color: #000;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Habilidades */
@@ -179,11 +211,17 @@ header{
     justify-content: center;
     max-width: 1200px
   }
+.habilidades-js{
+  display: flex;
+  padding: 10px;
+  margin-left: 45px;
+}
 
   .habilidade-nome {
     font-weight: bold;
     margin-right: 5px;
     margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .barra {
@@ -204,6 +242,8 @@ header{
     margin: auto;
     max-width: 400px;
     color: #000;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
   }  
 
 
@@ -232,7 +272,7 @@ header{
 }
 
   
-  /* Estilos para telas menores */
+ 
   @media screen and (max-width: 768px) {
     .habilidades-container {
       flex-direction: column;
@@ -242,7 +282,13 @@ header{
     .habilidade {
       margin-bottom: 20px;
     }
+    .habilidades-js {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
   }
+  
   @media screen and (max-width: 480px) {
     .habilidades-container {
       flex-direction: column;
@@ -252,8 +298,12 @@ header{
     .habilidade {
       margin-bottom: 20px;
     }
+    .habilidades-js {
+      flex-direction: column;
+      align-items: center;
+    }
     .barra {
-        width: 300px; /* Largura reduzida para dispositivos móveis */
+        width: 300px; 
       }
   } 
   

@@ -10,7 +10,7 @@ body {
     position: relative;
     height: 100vh;
     background-color: #000;
-    background-image: url(./imagem.jpg);
+    background-image: url(./img/imagem.jpg);
     background-size: cover;
     background-position: center;
   }

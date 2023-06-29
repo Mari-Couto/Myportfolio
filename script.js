@@ -21,6 +21,7 @@ function atualizarBarraProgresso(id, porcentagem) {
   atualizarBarraProgresso('html-progresso', 80);
   atualizarBarraProgresso('css-progresso', 60)
   atualizarBarraProgresso('JavaScript-progresso', 50)
+  atualizarBarraProgresso('react-progresso', 30)
   
 //card
 const cards = document.querySelectorAll('.card');

@@ -201,46 +201,8 @@ section {
 }
 
 /* Habilidades */
-.habilidades-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-.habilidade {
-    display: flex;
-    margin-right: 80px;
-    margin-bottom: 10px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px
-  }
-.habilidades-js{
-  display: flex;
-  padding: 10px;
-  margin-left: 45px;
-}
 
-  .habilidade-nome {
-    font-weight: bold;
-    margin-right: 5px;
-    margin-right: 10px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .barra {
-    width: 500px;
-    height: 20px;
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .progresso {
-    height: 100%;
-    background-color: #631872;
-  }
+
   .titulo {
     font-size: 2.5rem;
     text-align: center;
@@ -422,39 +384,6 @@ section {
 
   /*Responsividade habilidade */
  
-  @media screen and (max-width: 768px) {
-    .habilidades-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .habilidade {
-      margin-bottom: 20px;
-    }
-    .habilidades-js {
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .habilidades-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .habilidade {
-      margin-bottom: 20px;
-    }
-    .habilidades-js {
-      flex-direction: column;
-      align-items: center;
-    }
-    .barra {
-        width: 300px; 
-      }
-  } 
   
   /*Responsividade projeto*/
 

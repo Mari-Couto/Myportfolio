@@ -10,18 +10,6 @@ toggleBtn.onclick = function () {
     ? 'fa-solid fa-xmark'
     : 'fa-solid fa-bars'
 }
-
-//Barra de progresso
-function atualizarBarraProgresso(id, porcentagem) {
-    const elementoProgresso = document.getElementById(id);
-    elementoProgresso.style.width = porcentagem + '%';
-  }
-  
-
-  atualizarBarraProgresso('html-progresso', 80);
-  atualizarBarraProgresso('css-progresso', 60)
-  atualizarBarraProgresso('JavaScript-progresso', 50)
-  atualizarBarraProgresso('react-progresso', 30)
   
 //card
 const cards = document.querySelectorAll('.card');

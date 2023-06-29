@@ -9,11 +9,12 @@
 body {
     position: relative;
     height: 100vh;
-    background-color: #000;
-    background-image: url(./img/imagem.jpg);
+    background: #dcbfe2;
     background-size: cover;
     background-position: center;
   }
+
+  
   
   /* Header */
 li {
@@ -123,9 +124,11 @@ header{
 /*section*/
 
 section {
-  padding-block: 10rem;
+  padding-block: 11.5rem;
   padding-inline: 2rem;
 }
+
+
 
 /*inicio*/
 .inicio {
@@ -135,10 +138,13 @@ section {
   font-size: 1.5rem;
 }
 .inicio h1 {
-  color: #9834ab;
+  color: #8e12a7;
+  padding: 5px;
 }
 .inicio h2 {
-  color: #67047b
+  color: #5b036d;
+  padding: 5px;
+  
 }
 
 
@@ -152,9 +158,10 @@ section {
     align-items: center;
     justify-content: center;
     margin: auto;
-    max-width: 1200px;
-    margin-bottom: 230px;
-    
+    max-width: 200px;
+    margin-bottom: 130px;
+    background: linear-gradient(to bottom right, rgba(199, 168, 212, 0.822), rgba(135, 135, 178, 0.729), rgba(199, 168, 212, 0.822));
+    border-radius: 10px;
   }
   
   .txt-sobre {
@@ -278,6 +285,7 @@ section {
   }
   .projetos{
     font-family: 'Poppins', sans-serif; 
+    background: linear-gradient(to bottom right, rgba(199, 168, 212, 0.822), rgba(135, 135, 178, 0.729), rgba(199, 168, 212, 0.822));
   }
   .projetos h1{
     font-size: 2.5rem;

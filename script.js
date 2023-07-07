@@ -29,7 +29,7 @@ cards.forEach(card => {
 //Botão de voltar
 window.addEventListener("scroll", function() {
   let scrollButton = document.querySelector(".voltar");
-  if (document.documentElement.scrollTop > 30) {
+  if (document.documentElement.scrollTop > 300) {
     scrollButton.style.display = "block";
   } else {
     scrollButton.style.display = "none";

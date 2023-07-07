@@ -181,6 +181,9 @@ section {
 .logo-container a i {
   font-size: 2rem; 
 }
+.logo-container a i:hover {
+  color: #4a2146;
+}
 
 
 
@@ -332,6 +335,50 @@ section {
     margin: 0 auto -80px;
   
   }
+  /*Formação */
+
+ .formação{
+  font-family: 'Poppins', sans-serif; 
+ }
+
+  .titulocurso{
+    text-align: center;
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+
+  .cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .principal {
+    background-color: rgb(82, 62, 86);
+    border: 2px solid #000000;
+    padding: 20px;
+    width: 450px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .curso-container {
+    display: flex; 
+  }
+  
+  .curso {
+    background-color: rgb(99, 80, 108);
+    border: 2px solid #000000;
+    padding: 15px;
+    width: 200px;
+    margin: 15px; 
+    border-radius: 25px;
+  }
+  
+
 
 /*Responsividade */
 /*Responsividade navbar */

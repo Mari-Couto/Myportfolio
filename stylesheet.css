@@ -125,7 +125,7 @@ header{
 }
 
 .dropdown_menu.open{
-    height: 240px;
+    height: 275px;
 }
 
 .dropdown_menu li {
@@ -433,6 +433,20 @@ section {
     font-size: 1.2rem;
   }
 }
+/* Responsividade da logo */
+@media screen and (max-width: 768px) {
+  .logo-container {
+    justify-content: center; 
+  }
+
+  .logo-container a {
+    margin: 0 5px; 
+  }
+
+  .logo-container a i {
+    font-size: 1.5rem; 
+  }
+}
 
 
 /* Rsponsividade sobre*/
@@ -506,6 +520,40 @@ section {
 
   /*Responsividade habilidade */
  
+  @media screen and (max-width: 768px) {
+    .knowledge-section {
+      height: auto;
+      padding: 40px 0;
+    }
+  
+    .card0 {
+      width: 250px;
+      height: 150px;
+      margin: 10px;
+    }
+  
+    .icon {
+      font-size: 3rem;
+    }
+  
+    .titulo {
+      font-size: 1.8rem;
+      padding: 40px;
+      margin-bottom: 20px;
+    }
+  }
+ 
+    @media screen and (max-width: 500px) {
+      .knowledge-section {
+        flex-direction: column; 
+        align-items: center; 
+      }
+    
+      .card0 {
+        width: 80%;
+        margin: 10px 0; 
+      }
+    }
   
   /*Responsividade projeto*/
 

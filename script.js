@@ -50,3 +50,4 @@ document.querySelector(".voltar").addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+

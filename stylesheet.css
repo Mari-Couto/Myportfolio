@@ -377,7 +377,23 @@ section {
     margin: 15px; 
     border-radius: 25px;
   }
-  
+
+  .botao {
+    display: inline-block;
+    padding: 8px;
+    background-color: #2b212e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px; 
+  }
+
+  .desen{
+    font-size: 15px;
+    margin-top: 15px;
+  }
 
 
 /*Responsividade */
@@ -459,7 +475,7 @@ section {
     margin: 0 auto;
     max-width: 1200px;
     margin-bottom: 230px;
-    width: 100%; /* Adicionado */
+    width: 100%;
   }
 
   .txt-sobre {
@@ -469,8 +485,8 @@ section {
     text-align: justify;
     text-justify: inter-word; 
     font-family: 'Poppins', sans-serif;
-    width: 100%; /* Adicionado */
-    box-sizing: border-box; /* Adicionado */
+    width: 100%; 
+    box-sizing: border-box; 
   }
 
   .txt-sobre h1 {

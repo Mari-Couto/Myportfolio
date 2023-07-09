@@ -44,7 +44,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #9c039f;
+    color: #620564;
     font-size: 21px;
     font-family: 'Poppins', sans-serif;
 }
@@ -396,6 +396,53 @@ section {
     margin-top: 15px;
   }
 
+/*Contato*/
+.contatos {
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tit {
+  font-size: 2rem;
+  margin-top: -30px;
+}
+
+.cont {
+  margin-top: 20px;
+  padding: 30px;
+}
+.cont a {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.cont p {
+  display: inline;
+  margin-left: 10px;
+  color: #6a2878;
+}
+
+.whats {
+  color: #ffffff;
+  border: 2px solid #000000;
+  background-color: #560c56;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.whats a {
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #560c56;
+  opacity: 0.8;
+}
 
 /*Responsividade */
 /*Responsividade navbar */

@@ -234,15 +234,6 @@ section {
   border-radius: 20px;
 }
 
-/*Em desenvolvimento*/
-.proximo{
-    align-items: center;
-    margin: auto;
-    max-width: 400px; 
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-}
-
 /* Habilidades */
 .habilidades{
   font-family: 'Poppins', sans-serif;
@@ -443,6 +434,36 @@ button:hover {
   background-color: #560c56;
   opacity: 0.8;
 }
+
+
+/*Footer*/
+
+footer {
+  color: #ffffff;
+  background-color: #4a2146;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer a {
+  margin-right: 35px;
+}
+
+.footer a i {
+  font-size: 1.5rem; 
+  color: #ffffff;
+}
+
+.footer a i:hover {
+  color: #f2a2fc;
+}
+
 
 /*Responsividade */
 /*Responsividade navbar */

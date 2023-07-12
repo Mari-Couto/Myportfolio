@@ -669,13 +669,19 @@ footer p {
   
     .card {
       margin: 10px;
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
     }
   
     .projetos h1 {
       padding: 20px;
       margin-bottom: 0;
+    }
+    .card h4 {
+      font-size: 14px; 
+    }
+    .card p {
+      font-size: 12px; 
     }
   }
 
@@ -689,10 +695,15 @@ footer p {
   
     .card {
       margin: 10px;
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
     }
-  
+    .card h4 {
+      font-size: 12px; 
+    }
+    .card p {
+      font-size: 10px; 
+    }
     .projetos h1 {
       padding: 20px;
       margin-bottom: 0;

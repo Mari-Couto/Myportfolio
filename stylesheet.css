@@ -504,7 +504,15 @@ footer p {
         left: 2rem;
         width: unset;
     }
+}
+@media (max-width: 400px) {
+  .navbar .logo a {
+    font-size: 1.5rem; 
+  }
 
+  .dropdown_menu {
+    top: 90px; 
+  }
 }
 /*Responsividade início */
 @media screen and (min-width: 768px) {

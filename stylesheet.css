@@ -704,7 +704,7 @@ footer p {
     .card {
       margin: 10px;
       width: 300px;
-      height: 300px;
+      height: 300px; 
     }
     .card h4 {
       font-size: 12px; 
@@ -716,6 +716,14 @@ footer p {
       padding: 20px;
       margin-bottom: 0;
     }
+  }
+  @media screen and (max-width: 400px) {
+    .card {
+      width: 300px;
+      height: 300px;
+    
+    }
+   
   }
   /*Responsividade formação */
   @media screen and (max-width:700px) {

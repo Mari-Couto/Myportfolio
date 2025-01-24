@@ -317,6 +317,7 @@ section {
     color: #341531;
     font-size: 18px;
     margin: 10px;
+    font-family: 'Poppins', sans-serif; 
   }
   
   .card p {
@@ -326,6 +327,7 @@ section {
     text-align: justify;
     flex-grow: 1; 
     overflow-y: auto; 
+    font-family: 'Poppins', sans-serif; 
   }
   
   .projetos h1 {
